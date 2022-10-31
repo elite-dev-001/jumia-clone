@@ -55,6 +55,24 @@ header{
 .container{
     margin: 1em 3em;
 }
+.arrows{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #e81313;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+}
+.arrow{
+    border: 1px solid #000;
+    height: 100%;
+    width: 70px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .carousel_container{
     /* border: 1px solid #000; */
@@ -99,4 +117,17 @@ header{
 }
 .extra img{
     object-fit: cover;
+}
+
+.computing{
+    /* background: #fff; */
+    margin-top: 2em;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em;
+    overflow: auto;
+}
+.item{
+    /* border: 1px solid #000; */
+    background: #fff;
 }
